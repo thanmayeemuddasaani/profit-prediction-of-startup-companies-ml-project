@@ -7,9 +7,6 @@
 - **Hemalatha Mareedu**
 - **K. Lakshmi Prasanna**
 
-> Team information requirement referenced from the project guidance  
-> :contentReference[oaicite:0]{index=0}
-
 ## 📘 Project Overview
 This project develops a machine learning model to predict company profit based on financial expenditures such as:
 - R&D Spend  
@@ -19,18 +16,12 @@ This project develops a machine learning model to predict company profit based o
 
 The project follows a complete ML pipeline including preprocessing, EDA, model training, evaluation, and business insights.
 
-> Overview referenced from presentation and report  
-> :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
-
 ## 🎯 Objectives
 - Analyze how different expenditures affect company profit.
 - Identify which features contribute most to profitability.
 - Train and compare multiple regression models.
 - Evaluate model performance using R², RMSE, MAE, and cross-validation.
 - Recommend the best model for real-world prediction.
-
-> Objectives sourced from the uploaded report  
-> :contentReference[oaicite:3]{index=3}
 
 ## 🏗️ Project Workflow / Architecture
 1. **Data Acquisition**  
@@ -53,8 +44,6 @@ The project follows a complete ML pipeline including preprocessing, EDA, model t
 7. **Selection of Best Model**  
 8. **Prediction & Business Insight Generation**
 
-> Architecture derived from the detailed project description  
-> :contentReference[oaicite:4]{index=4}
 
 ## 📂 Dataset
 The dataset used is the **50_Startups** dataset containing:
@@ -64,6 +53,82 @@ The dataset used is the **50_Startups** dataset containing:
 - State  
 - Profit (target variable)
 
-> Dataset details from slide deck  
-> :contentReference[oaicite:5]{index=5}
+## 🔧 Tools & Technologies
+
+### Programming
+- **Python**
+
+### Libraries
+- NumPy, Pandas  
+- Matplotlib, Seaborn  
+- Scikit-learn
+
+### Development Environment
+- **Jupyter Notebook**
+
+## 🧠 Machine Learning Models Used
+Four supervised regression algorithms were trained:
+
+1. **Linear Regression** – Baseline model  
+2. **Ridge Regression** – L2 regularization  
+3. **Lasso Regression** – L1 regularization  
+4. **Random Forest Regression** – Best-performing ensemble model  
+
+## 📈 Model Evaluation
+
+### Metrics Used
+- R² Score  
+- RMSE  
+- MAE  
+- Cross-validation Score  
+
+### Performance Summary
+| Model | R² Score |
+|-------|----------|
+| **Random Forest** | ≈ 0.905 |
+| Linear Regression | ≈ 0.900 |
+| Lasso Regression | ≈ 0.900 |
+| Ridge Regression | ≈ 0.896 |
+
+Random Forest achieved:
+- Lowest RMSE  
+- Lowest MAE  
+- Best generalization  
+
+## 🏆 Best Model & Key Insights
+
+### ⭐ Best Model: **Random Forest Regressor**
+Reasons:
+- Captures nonlinear patterns  
+- Handles correlated features effectively  
+- Reduces overfitting  
+
+### 🔍 Feature Importance Ranking
+1. **R&D Spend** – strongest driver of profit  
+2. **Marketing Spend** – moderate effect  
+3. **Administration Cost** – weak influence  
+
+## 📊 Results & Discussion
+- All four regression models performed well.  
+- Random Forest achieved the highest accuracy and stability.  
+- R&D spending shows the strongest correlation with profit.  
+- Marketing spend provides additional value, while administration cost contributes least.  
+- The dataset’s small size (50 rows) limits generalization, but insights remain meaningful.  
+
+## 🚀 Conclusion
+This project successfully builds and evaluates machine learning models for predicting company profit.  
+Key conclusions:
+- **Random Forest is the most effective model** for this dataset.  
+- **R&D spending is the most influential factor** in determining profitability.  
+- Machine learning provides valuable support for business budgeting and investment decisions.  
+
+## 🔮 Future Work
+- Use larger datasets with more diverse features  
+- Incorporate economic and market-related variables  
+- Explore advanced models (XGBoost, CatBoost, Neural Networks)  
+- Deploy as a real-time prediction system  
+
+
+
+
 
