@@ -127,7 +127,9 @@ This project successfully builds and evaluates machine learning models for predi
 Key conclusions:
 - **Random Forest is the most effective model** for this dataset.  
 - **R&D spending is the most influential factor** in determining profitability.  
-- Machine learning provides valuable support for business budgeting and investment decisions.  
+- Machine learning provides valuable support for business budgeting and investment decisions.
+<img width="631" height="393" alt="image" src="https://github.com/user-attachments/assets/82af1d03-4e24-491d-b5a8-dc18ee1f8b4a" />
+
 
 ## 🔮 Future Work
 - Use larger datasets with more diverse features  
