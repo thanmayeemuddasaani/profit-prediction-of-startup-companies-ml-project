@@ -97,7 +97,10 @@ Four supervised regression algorithms were trained:
 Random Forest achieved:
 - Lowest RMSE  
 - Lowest MAE  
-- Best generalization  
+- Best generalization
+
+  <img width="733" height="451" alt="image" src="https://github.com/user-attachments/assets/26865555-447e-4d78-9c63-124087061a91" />
+
 
 ## 🏆 Best Model & Key Insights
 
