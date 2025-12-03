@@ -1,11 +1,15 @@
 # 📊 Profit Prediction of a Company using Machine Learning
-*A Machine Learning Project for Predicting Company Profit Based on Expenditure Patterns*  
-## 👥 Team Members
-- **M. Thanmayee**
-- **D. Sri Kathyayini**
-- **Himaja Arabati**
-- **Hemalatha Mareedu**
-- **K. Lakshmi Prasanna**
+*A Machine Learning Project for Predicting Company Profit Based on Expenditure Patterns* 
+
+## 👥 Team Members & Student IDs
+
+- **M. Thanmayee** — *700776997*
+- **D. Sri Kathyayini** — *700769996*
+- **Himaja Arabati** — *700772489*
+- **Hemalatha Mareedu** — *700771973*
+- **K. Lakshmi Prasanna** — *700772585*
+
+
 
 ## 📘 Project Overview
 This project develops a machine learning model to predict company profit based on financial expenditures such as:
